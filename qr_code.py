@@ -27,8 +27,10 @@ def generate():
     Image=PhotoImage(file="Qrcodetest/" +str(name)+".png")
     Image_view.config(image=Image)
     
-    Image_view=Label(root,bg="#AE2321")
-    Image_view.pack(padx=50,pady=10,side=RIGHT)
+    
+    
+Image_view=Label(root,bg="#AE2321")
+Image_view.pack(padx=50,pady=10,side=RIGHT)
 
     
 
